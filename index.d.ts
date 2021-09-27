@@ -30,6 +30,11 @@ export interface MultiSelectProps {
     styleListContainer?: StyleProp<ViewStyle>;
     styleMainWrapper?: StyleProp<ViewStyle>;
     styleRowList?: StyleProp<ViewStyle>;
+    styleRowText?: StyleProp<TextStyle>;
+    styleRowTextSelected?: StyleProp<TextStyle>;
+    styleWraperRowText?: StyleProp<ViewStyle>;
+    styleWraperRowTextSelected?: StyleProp<ViewStyle>;
+    styleRowListSelected?: StyleProp<ViewStyle>;
     styleSelectorContainer?: StyleProp<ViewStyle>;
     styleTextDropdown?: StyleProp<TextStyle>;
     styleTextDropdownSelected?: StyleProp<TextStyle>;
